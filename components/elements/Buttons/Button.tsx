@@ -20,6 +20,10 @@ export const BtnPrimary = styled.a`
     &:active {
         transform: translateY(-1px);
     }
+
+    @media (max-width: 640px) { 
+        font-size: 1.2rem;
+    }
 `
 
 export const BtnPrimary_Md = styled(BtnPrimary)`
