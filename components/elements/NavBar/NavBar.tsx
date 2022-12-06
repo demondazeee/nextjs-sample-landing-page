@@ -4,6 +4,11 @@ import { Container } from "../../layouts/Container"
 const Nav = styled.nav`
     font-size: 1.2rem;
     font-weight: 700;
+
+    @media (max-width: 640px) { 
+       display: none;
+       visibility: hidden;
+    }
 `
 
 const UL = styled.ul`
