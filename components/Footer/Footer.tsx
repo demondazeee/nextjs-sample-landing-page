@@ -7,8 +7,7 @@ import { H3 } from "../elements/Typography/Headings";
 
 const FooterContainer = styled.footer`
     color: var(--text-white);
-
-    padding: 50px 0 50px 0;
+    padding: 50px 20px 50px 20px;
 
 `
 
@@ -17,7 +16,7 @@ const FooterContents = styled.div`
     justify-content: space-between;
     align-items: center;
 
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 `
 
 const Nav = styled.ul`
