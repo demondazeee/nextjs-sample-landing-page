@@ -14,7 +14,7 @@ const CTASectionContainer = styled(Section)`
 
 const CTAContainer = styled.div`
     text-align: center;
-
+    padding: 2rem;
     & > *:not(:last-child){
         margin-bottom: 22px;
     }
