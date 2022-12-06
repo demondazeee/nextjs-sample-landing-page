@@ -13,6 +13,8 @@ const InfoSectionContainer = styled(Section)`
 `
 
 const InfoContent = styled.div`
+    padding: 2rem;
+
     text-align: center;
     & > *:not(:last-child) {
         margin-bottom: 20px;
