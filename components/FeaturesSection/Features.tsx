@@ -12,23 +12,39 @@ const FeatureSectionContainer = styled(Section)`
 
 const FeaturesContainer = styled.div`
     text-align: center;
+    padding: 2rem;
 `
 
 const FeaturesGrid = styled.div`
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 1fr;
-    row-gap: 5rem;
+    row-gap: 2rem;
     column-gap: 2rem;
     margin-top: 100px;
+
+
+    @media (max-width: 640px) { 
+        grid-template-columns: repeat(1, 1fr);
+    }
 `
 
 const FeaturesItem = styled.div`
-    
+
+    & > *:not(:last-child) {
+        margin-bottom: 10px;
+    }
+    @media (max-width: 640px) { 
+        padding: 3.5rem;
+    }
 `
 const FeaturesItem2 = styled(FeaturesItem)`
     grid-row: 2;
     grid-column: 2;
+
+    @media (max-width: 640px) { 
+        grid-column: 1;
+    }
 `
 
 const FeaturesItem3 = styled(FeaturesItem)`
